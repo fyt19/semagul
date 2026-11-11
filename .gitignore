@@ -43,3 +43,7 @@ next-env.d.ts
 # local media uploads
 /public/uploads
 /public/pdf.worker.min.mjs
+
+# local db
+/prisma/*.db
+/prisma/*.db-journal
