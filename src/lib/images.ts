@@ -13,12 +13,12 @@ export const images = {
   blogDefault: "/images/slider.jpeg",
   og: "/images/slider.jpeg",
   services: {
-    ortopedik: "/images/services/ortopedik.svg",
-    norolojik: "/images/services/norolojik.svg",
     pediatrik: "/images/services/pediatrik.svg",
-    "yogun-bakim": "/images/services/yogun-bakim.svg",
-    "evde-fizyoterapi": "/images/slider.jpeg",
-    "manuel-terapi": "/images/services/manuel-terapi.svg",
+    "erken-tani": "/images/services/yogun-bakim.svg",
+    norolojik: "/images/services/norolojik.svg",
+    bobath: "/images/services/manuel-terapi.svg",
+    kardiyopulmoner: "/images/services/ortopedik.svg",
+    "yapay-zeka": "/images/services/norolojik.svg",
   },
   trust: {
     guvenilir: "/images/trust/guvenilir.svg",
