@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand palette */
+  --color-primary: #2b7cb8;
+  --color-primary-dark: #1e5a8a;
+  --color-primary-light: #e8f4fd;
+  --color-secondary: #5ba4d9;
+  --color-accent: #7ec8e3;
+  --color-accent-soft: #b8e0f0;
+  --color-white: #ffffff;
+  --color-off-white: #f8fafb;
+  --color-gray-50: #f1f5f9;
+  --color-gray-100: #e2e8f0;
+  --color-gray-200: #cbd5e1;
+  --color-gray-400: #94a3b8;
+  --color-gray-600: #64748b;
+  --color-gray-800: #1e293b;
+  --color-gray-900: #0f172a;
+  --color-success: #10b981;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+
+  --background: var(--color-white);
+  --foreground: var(--color-gray-900);
+
+  /* Legacy navy tokens → brand blues & dark neutrals */
+  --navy-50: var(--color-primary-light);
+  --navy-100: var(--color-accent-soft);
+  --navy-800: #174a72;
+  --navy-900: var(--color-primary-dark);
+  --navy-950: var(--color-gray-900);
+
+  /* Legacy teal tokens → primary / secondary / accent scale */
+  --teal-50: var(--color-primary-light);
+  --teal-100: var(--color-accent-soft);
+  --teal-200: #d4edf7;
+  --teal-300: var(--color-accent);
+  --teal-400: var(--color-accent);
+  --teal-500: var(--color-secondary);
+  --teal-600: var(--color-primary);
+  --teal-700: var(--color-primary-dark);
+  --teal-800: #185a87;
+  --teal-900: #134566;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-light: var(--color-primary-light);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-off-white: var(--color-off-white);
+  --color-success: var(--color-success);
+  --color-error: var(--color-error);
+  --color-warning: var(--color-warning);
+
+  --color-navy-50: var(--navy-50);
+  --color-navy-100: var(--navy-100);
+  --color-navy-800: var(--navy-800);
+  --color-navy-900: var(--navy-900);
+  --color-navy-950: var(--navy-950);
+
+  --color-teal-50: var(--teal-50);
+  --color-teal-100: var(--teal-100);
+  --color-teal-200: var(--teal-200);
+  --color-teal-300: var(--teal-300);
+  --color-teal-400: var(--teal-400);
+  --color-teal-500: var(--teal-500);
+  --color-teal-600: var(--teal-600);
+  --color-teal-700: var(--teal-700);
+  --color-teal-800: var(--teal-800);
+  --color-teal-900: var(--teal-900);
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-script: var(--font-caveat), "Segoe Script", cursive;
+}
+
+@utility font-script {
+  font-family: var(--font-script);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: var(--color-accent-soft);
+  color: var(--color-primary-dark);
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 100;
+  padding: 8px 16px;
+  background: var(--color-primary-dark);
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+.rdp-root {
+  --rdp-accent-color: var(--color-primary);
+  --rdp-accent-background-color: var(--color-primary-light);
+  --rdp-day-height: 2.5rem;
+  --rdp-day-width: 2.5rem;
+  --rdp-day_button-border-radius: 0.75rem;
+}

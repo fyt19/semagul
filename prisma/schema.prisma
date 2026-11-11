@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum AppointmentStatus {
+  PENDING
+  APPROVED
+  COMPLETED
+  CANCELLED
+}
+
+enum PostPlatform {
+  INSTAGRAM
+  LINKEDIN
+  ARTICLE
+  VIDEO
+  CONTENT
+  GENERAL
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String   @default("Admin")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Appointment {
+  id            String            @id @default(cuid())
+  referenceId   String            @unique
+  serviceId     String
+  serviceName   String
+  date          DateTime          @db.Date
+  timeSlot      String
+  firstName     String
+  lastName      String
+  phone         String
+  email         String
+  notes         String?
+  status        AppointmentStatus @default(PENDING)
+  cancelReason  String?
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  @@index([date, timeSlot])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model SiteContent {
+  id        String   @id @default("main")
+  data      Json
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id              String       @id @default(cuid())
+  title           String
+  content         String       @db.Text
+  imageUrl        String?
+  platform        PostPlatform @default(GENERAL)
+  externalUrl     String?
+  metaTitle       String?
+  metaDescription String?      @db.Text
+  metaKeywords    String?
+  published       Boolean      @default(true)
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  @@index([published, createdAt])
+}
+
+model PageView {
+  id        String   @id @default(cuid())
+  path      String
+  visitorId String
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([visitorId, createdAt])
+  @@index([path, createdAt])
+}

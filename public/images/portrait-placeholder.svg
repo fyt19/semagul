@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1067" viewBox="0 0 800 1067" role="img" aria-label="Soner H1ra portre">
+  <defs>
+    <linearGradient id="portrait-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8"/>
+      <stop offset="100%" style="stop-color:#d9e2ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1067" fill="url(#portrait-bg)"/>
+  <!-- Head -->
+  <ellipse cx="400" cy="380" rx="140" ry="160" fill="#c4cdd8"/>
+  <!-- Shoulders -->
+  <ellipse cx="400" cy="720" rx="220" ry="180" fill="#b8c4d4"/>
+  <!-- Neck -->
+  <rect x="360" y="520" width="80" height="80" fill="#c4cdd8"/>
+  <!-- Subtle accent -->
+  <circle cx="650" cy="200" r="120" fill="#0d9488" opacity="0.08"/>
+  <circle cx="150" cy="900" r="150" fill="#0f2744" opacity="0.05"/>
+  <text x="400" y="980" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#64748b">Soner H1ra</text>
+  <text x="400" y="1015" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8">Fizyoterapist</text>
+</svg>

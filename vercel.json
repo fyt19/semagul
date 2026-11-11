@@ -1,0 +1,22 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "semagul.com.tr" }],
+      "destination": "https://www.semagul.com.tr/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "semagul.com" }],
+      "destination": "https://www.semagul.com.tr/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.semagul.com" }],
+      "destination": "https://www.semagul.com.tr/:path*",
+      "permanent": true
+    }
+  ]
+}

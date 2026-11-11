@@ -1,0 +1,24 @@
+Öğr. Gör. Dr. Sema Gül — Pediatrik Fizyoterapi, Erken Tanı & Nörorehabilitasyon
+Resmi site: https://www.semagul.com.tr
+
+Marka: Öğr. Gör. Dr. Sema Gül
+Konum: Kurupelit / Atakum, Samsun — OMÜ / OGEM
+Telefon: +90 542 846 1232
+E-posta: info@semagul.com.tr
+Akademik: sema.gul@omu.edu.tr
+AVESİS: https://avesis.omu.edu.tr/sema.gul
+
+Ana sayfalar:
+- https://www.semagul.com.tr/
+- https://www.semagul.com.tr/hakkimda
+- https://www.semagul.com.tr/hizmetlerimiz
+- https://www.semagul.com.tr/akademik
+- https://www.semagul.com.tr/yayinlar
+- https://www.semagul.com.tr/projeler
+- https://www.semagul.com.tr/randevu
+- https://www.semagul.com.tr/samsun
+- https://www.semagul.com.tr/sosyal-hub
+- https://www.semagul.com.tr/sitemap.xml
+
+Yönlendirme: semagul.com.tr (apex) → https://www.semagul.com.tr
+Not: *.vercel.app yönlendirilmez.
