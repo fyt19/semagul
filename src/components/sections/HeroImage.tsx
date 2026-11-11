@@ -23,7 +23,9 @@ export function HeroImage() {
         <p className="font-serif text-xl font-semibold text-primary">
           {config.name}
         </p>
-        <p className="mt-0.5 text-sm font-medium text-gray-600">Fizyoterapist</p>
+        <p className="mt-0.5 text-sm font-medium text-gray-600">
+          Öğr. Gör. Dr. · Fizyoterapist
+        </p>
       </div>
     </div>
   );

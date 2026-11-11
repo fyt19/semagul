@@ -24,33 +24,33 @@ export const metadata: Metadata = aboutMetadata;
 const credentials = [
   {
     icon: GraduationCap,
-    label: "İzmir Üniversitesi",
-    detail: "Fizik Tedavi ve Rehabilitasyon, 2015",
+    label: "Dokuz Eylül Üniversitesi",
+    detail: "Fizyoterapi ve Rehabilitasyon",
   },
   {
     icon: MapPin,
-    label: "Çorum",
-    detail: "Memleket",
+    label: "Samsun / Atakum",
+    detail: "OMÜ · OGEM",
   },
   {
     icon: Heart,
-    label: "Aile",
-    detail: "Evli, bir çocuk babası",
+    label: "Uzmanlık",
+    detail: "Pediatrik & nörorehabilitasyon",
   },
 ];
 
 const highlights = [
   {
     icon: Stethoscope,
-    title: "Klinik Deneyim",
+    title: "Akademik & Klinik Deneyim",
     description:
-      "Özel hastaneler, tıp merkezleri ve kendi kliniğimde ortopedi, nöroloji, pediatri ve yoğun bakım alanlarında kapsamlı deneyim kazandım.",
+      "OMÜ Tıp Fakültesi, Sağlık Bilimleri Fakültesi ve OGEM bünyesinde pediatrik rehabilitasyon, nörorehabilitasyon ve riskli yenidoğanlarda erken motor gelişim takibi üzerine çalışıyorum.",
   },
   {
     icon: Hand,
-    title: "Manuel Terapi Uzmanlığı",
+    title: "Bobath / NDT & Erken Tanı",
     description:
-      "Manuel terapi alanında aldığım eğitimlerle, kas-iskelet sistemi problemlerinde etkili ve kanıta dayalı tedavi yöntemleri uyguluyorum.",
+      "Bobath/NDT, GMs (Prechtl) ve IMP eğitimleriyle bebek ve çocuklarda kanıta dayalı değerlendirme ve terapi yaklaşımları uyguluyorum.",
   },
 ];
 
@@ -59,13 +59,13 @@ const missionVision = [
     icon: Target,
     title: "Misyonumuz",
     description:
-      "Danışanlarımızın hareket özgürlüğünü ve yaşam kalitesini artırmak için güvenilir, bilimsel ve kişiye özel fizik tedavi hizmetleri sunmak. Her tedaviyi etik değerlere bağlı kalarak, şeffaf iletişimle ve danışan odaklı bir yaklaşımla yürütmek.",
+      "Riskli bebekler ve çocuklar başta olmak üzere danışanların motor gelişimini ve yaşam kalitesini artırmak için bilimsel, etik ve kişiye özel fizyoterapi sunmak; aileyi doğru zamanda doğru yola yönlendirmek.",
   },
   {
     icon: Eye,
     title: "Vizyonumuz",
     description:
-      "Samsun'da fizyoterapi alanında güvenilen ve öncü bir klinik olmak; evde ve klinik ortamda erişilebilir rehabilitasyon hizmetleriyle herkesin sağlıklı hareket etmesine katkı sağlamak ve sürekli gelişen bilimsel yaklaşımlarla en yüksek standartlarda bakım sunmak.",
+      "Samsun'da pediatrik fizyoterapi ve erken tanı alanında güvenilen bir referans olmak; yapay zekâ destekli değerlendirme araçlarıyla erken müdahaleyi yaygınlaştırmak.",
   },
 ];
 

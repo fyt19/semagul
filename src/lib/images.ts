@@ -6,12 +6,12 @@ import type { SiteContentData } from "@/lib/site-content-types";
  * Sosyal OG görseli ayrıca app/opengraph-image.tsx ile üretilir.
  */
 export const images = {
-  hero: "/images/slider.jpeg",
-  slider: "/images/slider.jpeg",
-  portrait: "/images/slider.jpeg",
-  clinic: "/images/slider.jpeg",
-  blogDefault: "/images/slider.jpeg",
-  og: "/images/slider.jpeg",
+  hero: "/images/sema-gul.jpg",
+  slider: "/images/sema-gul.jpg",
+  portrait: "/images/sema-gul.jpg",
+  clinic: "/images/sema-gul.jpg",
+  blogDefault: "/images/sema-gul.jpg",
+  og: "/images/sema-gul.jpg",
   services: {
     pediatrik: "/images/services/pediatrik.svg",
     "erken-tani": "/images/services/yogun-bakim.svg",

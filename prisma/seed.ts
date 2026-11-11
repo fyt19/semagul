@@ -12,7 +12,7 @@ const seedPosts = [
     content:
       "Manuel terapi teknikleri, kas gerginliğini azaltarak ve eklem mobilitesini artırarak ağrı yönetiminde etkili sonuçlar sunar. Kliniğimizde kişiye özel değerlendirme sonrası tedavi planı oluşturulmaktadır.",
     platform: "ARTICLE" as const,
-    imageUrl: images.services["manuel-terapi"],
+    imageUrl: images.services.bobath,
   },
   {
     title: "Pediatrik Rehabilitasyonda Oyun Temelli Yaklaşım",
@@ -27,7 +27,7 @@ const seedPosts = [
     content:
       "Yoğun bakım sürecinden sonra erken mobilizasyon, solunum fonksiyonlarının iyileşmesi ve kas kaybının önlenmesi açısından kritik öneme sahiptir.",
     platform: "LINKEDIN" as const,
-    imageUrl: images.services["yogun-bakim"],
+    imageUrl: images.services["erken-tani"],
   },
 ];
 

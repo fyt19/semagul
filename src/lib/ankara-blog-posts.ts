@@ -4,11 +4,11 @@ import { siteConfig } from "@/lib/constants";
 import { images } from "@/lib/images";
 
 const serviceImages = [
-  images.services.ortopedik,
-  images.services["manuel-terapi"],
+  images.services.kardiyopulmoner,
+  images.services.bobath,
   images.services.norolojik,
   images.services.pediatrik,
-  images.services["yogun-bakim"],
+  images.services["erken-tani"],
 ];
 
 function getLocationLabel(area: LocalArea): string {

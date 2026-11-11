@@ -14,4 +14,4 @@ export function objectPositionStyle(focus = 18): CSSProperties {
 }
 
 /** Portre / kişi fotoğrafları — kafa kesilmesin diye üstten hizala */
-export const PORTRAIT_FOCUS = 16;
+export const PORTRAIT_FOCUS = 28;

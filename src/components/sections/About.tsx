@@ -11,18 +11,18 @@ import { useSiteConfig } from "@/components/providers/SiteConfigProvider";
 const credentials = [
   {
     icon: GraduationCap,
-    label: "İzmir Üniversitesi",
-    detail: "Fizik Tedavi ve Rehabilitasyon, 2015",
+    label: "Dokuz Eylül Üniversitesi",
+    detail: "Fizyoterapi ve Rehabilitasyon",
   },
   {
     icon: MapPin,
-    label: "Çorum",
-    detail: "Memleket",
+    label: "Samsun / Atakum",
+    detail: "OMÜ · OGEM",
   },
   {
     icon: Heart,
-    label: "Aile",
-    detail: "Evli, bir çocuk babası",
+    label: "Uzmanlık",
+    detail: "Pediatrik & nörorehabilitasyon",
   },
 ];
 
